@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=545
+
+Syntax file for EBNF as specified by ISO/IEC 14977 : 1996(E)
+
+EBNF is slightly different from most homegrown BNF.  Terminals are always quoted, non-terminals are not (and may contain spaces). Kleene closure is achieved by enclosing with braces, 0-or-1 matches with brackets, 1-or-more matches by appending "-" to the end of the braces (i.e. {one non-terminal, second non-terminal}- ). Atoms are separated by "," or "|". A production rule ends with ";" or ".". Comments are (* comment *)
+
+For more information on EBNF see http://www.cl.cam.ac.uk/~mgk25/iso-ebnf.html
